@@ -4,8 +4,9 @@
   // Database Connection URL
   //Mongoose is an Object Document Mapper (ODM)
   // const url = 'mongodb://localhost:27017/cruddb';
-  const url = 'mongodb://localhost:27017/Database';
-  
+//   const url = 'mongodb://localhost:27017/Database';
+  const url = 'mongodb+srv://sudipon01:openbaby01@cluster0.cpzn8.mongodb.net/Test?retryWrites=true&w=majority';
+
   // STEP-2 : ESTABLISH CONNECTION WITH MONGODB DATABASE THROUGH MONGOOSE
   // err is callback function Parameter. ARROW OPERATOR.
   // JSON.stringify convert Object to String. 2 means Indentation of Two space Character 
